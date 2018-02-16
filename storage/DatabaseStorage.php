@@ -4,7 +4,7 @@ namespace yii2mod\cart\storage;
 
 use Yii;
 use yii\base\InvalidConfigException;
-use yii\base\Object;
+use yii\base\BaseObject;
 use yii\db\Connection;
 use yii\db\Query;
 use yii\web\User;
