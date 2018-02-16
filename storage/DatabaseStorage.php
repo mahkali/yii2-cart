@@ -18,7 +18,7 @@ use yii2mod\cart\Cart;
  *
  * @package yii2mod\cart\storage
  */
-class DatabaseStorage extends Object implements StorageInterface
+class DatabaseStorage extends BaseObject implements StorageInterface
 {
     /**
      * @var string Name of the user component
